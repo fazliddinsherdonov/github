@@ -19,6 +19,8 @@ searchBtn.addEventListener("click", function (e) {
             return response.json()
         })
         .then(result => {
+            err.textContent = ""
+            err.style.display = "none"
             resulT.style.display = "block"
             img.src = result.avatar_url
 
@@ -38,7 +40,8 @@ searchBtn.addEventListener("click", function (e) {
         .catch(() => {
             resulT.style.display = "none"
             img.src = ""
-            err.textContent = ("Foydalanuvchi topilmadi")
+            err.style.display = "block"
+            err.textContent = "Foydalanuvchi topilmadi"
             usernameInput.value = ""
         })
 })

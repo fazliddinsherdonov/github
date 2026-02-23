@@ -11,7 +11,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #ffff;
-    font-family: sans-serif;
+    font-family: "Google Sans", sans-serif;
 }
 
 .card {
@@ -23,6 +23,10 @@ body {
     text-align: center;
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
 input {
     width: 100%;
     padding: 10px;
@@ -30,6 +34,7 @@ input {
     border: 1px solid #ddd;
     border-radius: 6px;
     box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
 }
 
 button {
@@ -41,13 +46,14 @@ button {
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
+    font-family: "Google Sans", sans-serif;
 }
 
 #error {
     color: #cf222e;
-    margin-top: 15px;
     font-size: 14px;
     margin-top: 20px;
+    font-family: "Google Sans", sans-serif;
 }
 
 #img {
@@ -55,6 +61,7 @@ button {
     height: 100px;
     border-radius: 50%;
 }
-.sreachbtn{
+
+.sreachbtn {
     margin-bottom: 24px;
 }
